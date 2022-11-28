@@ -2,9 +2,10 @@
   "name": "programming-exercises",
   "version": "1.0.0",
   "description": "This repository is to store different algorithm problems and solutions, this is great to improve our programming logic :)",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Juanma97/Programming-Exercises/issues"
   },
-  "homepage": "https://github.com/Juanma97/Programming-Exercises#readme"
+  "homepage": "https://github.com/Juanma97/Programming-Exercises#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }

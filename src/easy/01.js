@@ -17,3 +17,11 @@
  * 
  * Return [0, 1]
  */
+
+function solution01Easy(numbers, target) {
+    if (numbers.length === 0) {
+        return [];
+    }
+}
+
+module.exports = solution01Easy;
