@@ -1,0 +1,19 @@
+{
+  "name": "programming-exercises",
+  "version": "1.0.0",
+  "description": "This repository is to store different algorithm problems and solutions, this is great to improve our programming logic :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanma97/Programming-Exercises.git"
+  },
+  "author": "Juanma Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanma97/Programming-Exercises/issues"
+  },
+  "homepage": "https://github.com/Juanma97/Programming-Exercises#readme"
+}
