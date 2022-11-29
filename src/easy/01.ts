@@ -13,13 +13,21 @@
  * 
  * Given nums = [2, 7, 11, 15], target = 9
  * 
- * Because nums[0] `nums[1] = 2 + 7 = 9.
+ * Because nums[0] + nums[1] = 2 + 7 = 9.
  * 
  * Return [0, 1]
  */
 
 export function solution01Easy(numbers: number[], target: number): number[] {
-    if (numbers.length === 0) {
-        return [];
+    if (numbers.length !== 0 && target !== 0) {
+    
+        for (let indexFirstNumber = 0; indexFirstNumber < numbers.length; indexFirstNumber++) {
+            const complement = target - numbers[indexFirstNumber];
+            const indexSecondNumber = numbers.findIndex(num => num === complement);
+
+            if (indexSecondNumber !== -1) return [indexFirstNumber, indexSecondNumber]
+        }
     }
+
+    return [];
 }
