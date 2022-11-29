@@ -20,7 +20,6 @@
 
 export function solution01Easy(numbers: number[], target: number): number[] {
     if (numbers.length === 0) {
-        console.log('Hello TS');
         return [];
     }
 }
