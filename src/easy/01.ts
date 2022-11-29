@@ -18,10 +18,9 @@
  * Return [0, 1]
  */
 
-function solution01Easy(numbers, target) {
+export function solution01Easy(numbers: number[], target: number): number[] {
     if (numbers.length === 0) {
+        console.log('Hello TS');
         return [];
     }
 }
-
-module.exports = solution01Easy;

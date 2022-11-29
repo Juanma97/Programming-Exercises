@@ -2,7 +2,6 @@
   "name": "programming-exercises",
   "version": "1.0.0",
   "description": "This repository is to store different algorithm problems and solutions, this is great to improve our programming logic :)",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -19,5 +18,9 @@
   "homepage": "https://github.com/Juanma97/Programming-Exercises#readme",
   "devDependencies": {
     "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.1"
   }
 }
